@@ -50,10 +50,11 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
 }
 img {
-  display: block;
-  margin: 0 auto;
+  width: fit-content;
 }
 h1 {
   font-family: neutraTextBold, Futura, "Trebuchet MS", Arial, sans-serif;
