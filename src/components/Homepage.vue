@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Homepage",
   methods: {
     handleClick: function(url) {
       window.open(url, "_blank");
