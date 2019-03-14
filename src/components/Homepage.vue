@@ -12,7 +12,7 @@
       <span @click="handleClick('https://www.github.com/jennyxing27')">
         <font-awesome-icon size="2x" :icon="['fab', 'github']"/>
       </span>
-      <span @click="handleClick('https://www.linked.com/in/jennyxing27')">
+      <span @click="handleClick('https://www.linkedin.com/in/jennyxing27')">
         <font-awesome-icon size="2x" :icon="['fab', 'linkedin-in']"/>
       </span>
       <a :href="`mailto:jennyxing27+contact@gmail.com`">
