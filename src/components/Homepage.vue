@@ -1,10 +1,6 @@
 <template>
   <div class="container">
     <img alt="Vue logo" src="../assets/logo/jx-logo.png">
-    <h1>
-      Coming Soon
-      <sup>TM</sup>
-    </h1>
     <div>
       <span @click="handleClick('https://www.twitter.com/jennyxing27')">
         <font-awesome-icon size="2x" :icon="['fab', 'twitter']"/>
