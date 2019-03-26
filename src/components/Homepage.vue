@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <img alt="Vue logo" src="../assets/logo/jx-logo.png">
-    <div>
+    <div class="icons_container">
       <span @click="handleClick('https://www.twitter.com/jennyxing27')">
         <font-awesome-icon size="2x" :icon="['fab', 'twitter']"/>
       </span>
@@ -48,6 +48,9 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: 10rem;
+}
+.icons_container {
+  margin-top: 1rem;
 }
 img {
   width: fit-content;
