@@ -2,7 +2,7 @@
   <div class="container">
     <img alt="Vue logo" src="../assets/logo/jx-logo.png">
     <div class="icons_container">
-      <span @click="handleClick('https://www.twitter.com/jennyxing27')">
+      <span @click="handleClick('https://www.twitter.com/jenny-xing')">
         <font-awesome-icon size="2x" :icon="['fab', 'twitter']"/>
       </span>
       <span @click="handleClick('https://www.github.com/jennyxing27')">
