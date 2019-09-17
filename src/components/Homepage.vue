@@ -2,21 +2,12 @@
   <div class="container">
     <img alt="Vue logo" src="../assets/logo/jx-logo.png">
     <div class="icons_container">
-      <span @click="handleClick('https://www.twitter.com/jenny-xing')">
-        <font-awesome-icon size="2x" :icon="['fab', 'twitter']"/>
-      </span>
-      <span @click="handleClick('https://www.github.com/jennyxing27')">
+      <span @click="handleClick('https://www.github.com/jenny-xing')">
         <font-awesome-icon size="2x" :icon="['fab', 'github']"/>
       </span>
-      <span @click="handleClick('https://www.linkedin.com/in/jennyxing27')">
-        <font-awesome-icon size="2x" :icon="['fab', 'linkedin-in']"/>
-      </span>
-      <a :href="`mailto:jennyxing27+contact@gmail.com`">
+      <a :href="`mailto:contact@jennyxing.com`">
         <font-awesome-icon size="2x" icon="envelope"/>
       </a>
-      <span @click="handleClick('https://www.goodreads.com/jennyxing27')">
-        <font-awesome-icon size="2x" :icon="['fab', 'goodreads-g']"/>
-      </span>
       <span class="hide">
         <font-awesome-icon size="2x" :icon="['fab', 'medium-m']"/>
       </span>
