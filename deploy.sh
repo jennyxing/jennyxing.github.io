@@ -6,16 +6,17 @@ set -e
 # build
 yarn build
 
+# rename the dist folder to docs for github-pages purposes
+mv dist docs
+
 # navigate into the build output directory
-cd dist
+cd docs
 
 # add CNAME file for custom domain
 echo 'www.jennyxing.com' > CNAME
 
-git init
 git add -A
 git commit -m 'deploy'
-
-git push -f git@github.com:jenny-xing/jennyxing.github.io.git
+git push 
 
 cd -
