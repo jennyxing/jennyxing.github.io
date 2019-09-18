@@ -3,6 +3,9 @@
 # abort on errors
 set -e
 
+# delete current old docs folder
+rm -rf ./docs
+
 # build
 yarn build
 
@@ -17,6 +20,6 @@ echo 'www.jennyxing.com' > CNAME
 
 git add -A
 git commit -m 'deploy'
-git push 
+git push origin master
 
 cd -
