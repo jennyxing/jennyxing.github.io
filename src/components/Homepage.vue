@@ -18,6 +18,18 @@
         <font-awesome-icon size="2x" :icon="['fab', 'codepen']"/>
       </span>
     </div>
+    <div class="temporary-links">
+      <h3>Personal Technical Interviewing Resources</h3>
+      <ul>
+        <li><a target="_blank" href="https://docs.google.com/document/d/1kbCU4ynVAktr_sjQvl5BcWAM_Kk3CRPojYzK_18gbrM/edit?usp=sharing">Technical Interviews: The Non-Technical Side</a></li>
+        <br/>
+        <li><a target="_blank" href="https://docs.google.com/document/d/1dxZISDzTUVaA_au6hyOKZe1tkj5DA5Kppay8RBIAxyQ/edit?usp=sharing">Interviewing Questions To Ask</a></li>
+      </ul>
+      <h3>Additional Resource for Career Coach Recruiters</h3>
+      <ul>
+        <li><a target="_blank" href="https://docs.google.com/document/d/1QcpCgvtSa0EjWHKTk3rBL5RRUOtawsziAJguK-wgtMI/edit?usp=sharing">Mentorship notes with a Mentee at my currently employer</a></li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -62,5 +74,9 @@ a:hover {
 }
 .hide {
   display: none;
+}
+.temporary-links {
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-top: 1rem;
 }
 </style>
