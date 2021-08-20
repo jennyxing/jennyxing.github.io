@@ -27,7 +27,7 @@
       </ul>
       <h3>Additional Resource for Career Coach Recruiters</h3>
       <ul>
-        <li><a target="_blank" href="https://docs.google.com/document/d/1QcpCgvtSa0EjWHKTk3rBL5RRUOtawsziAJguK-wgtMI/edit?usp=sharing">Mentorship notes with a Mentee at my currently employer</a></li>
+        <li><a target="_blank" href="https://docs.google.com/document/d/1QcpCgvtSa0EjWHKTk3rBL5RRUOtawsziAJguK-wgtMI/edit?usp=sharing">Mentorship notes with a mentee at my current employer</a></li>
       </ul>
     </div>
   </div>
