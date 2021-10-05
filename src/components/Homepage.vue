@@ -5,7 +5,7 @@
       <span @click="handleClick('https://www.github.com/jennyxing')">
         <font-awesome-icon size="2x" :icon="['fab', 'github']"/>
       </span>
-      <a :href="`mailto:contact@jennyxing.com`">
+      <a :href="`mailto:jenny@jennyxing.com`">
         <font-awesome-icon size="2x" icon="envelope"/>
       </a>
       <span class="hide">
