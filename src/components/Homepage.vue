@@ -1,21 +1,27 @@
 <template>
   <div class="container">
-    <img alt="Vue logo" src="../assets/logo/jx-logo.png">
+    <img alt="Vue logo" src="../assets/logo/jx-logo.png" />
     <div class="icons_container">
-      <span @click="handleClick('https://www.github.com/jennyxing')">
-        <font-awesome-icon size="2x" :icon="['fab', 'github']"/>
+      <span @click="handleClick('https://www.linkedin.com/in/jennyxing')">
+        <font-awesome-icon size="2x" :icon="['fab', 'linkedin-in']" />
       </span>
-      <a :href="`mailto:contact@jennyxing.com`">
-        <font-awesome-icon size="2x" icon="envelope"/>
+      <span @click="handleClick('https://www.github.com/jennyxing')">
+        <font-awesome-icon size="2x" :icon="['fab', 'github']" />
+      </span>
+      <span @click="handleClick('https://calendly.com/jennyxing/chat')">
+        <font-awesome-icon size="2x" icon="calendar-day" />
+      </span>
+      <a :href="`mailto:jenny@jennyxing.com`">
+        <font-awesome-icon size="2x" icon="envelope" />
       </a>
       <span class="hide">
-        <font-awesome-icon size="2x" :icon="['fab', 'medium-m']"/>
+        <font-awesome-icon size="2x" :icon="['fab', 'medium-m']" />
       </span>
       <span class="hide">
-        <font-awesome-icon size="2x" :icon="['fab', 'dribbble']"/>
+        <font-awesome-icon size="2x" :icon="['fab', 'dribbble']" />
       </span>
       <span class="hide">
-        <font-awesome-icon size="2x" :icon="['fab', 'codepen']"/>
+        <font-awesome-icon size="2x" :icon="['fab', 'codepen']" />
       </span>
     </div>
   </div>
@@ -25,10 +31,10 @@
 export default {
   name: "Homepage",
   methods: {
-    handleClick: function(url) {
+    handleClick: function (url) {
       window.open(url, "_blank");
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -62,5 +68,9 @@ a:hover {
 }
 .hide {
   display: none;
+}
+.temporary-links {
+  font-family: "Trebuchet MS", sans-serif;
+  margin-top: 1rem;
 }
 </style>
