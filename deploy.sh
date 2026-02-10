@@ -7,7 +7,7 @@ set -e
 rm -rf ./docs
 
 # build
-yarn build
+npm run build
 
 # rename the dist folder to docs for github-pages purposes
 mv dist docs
