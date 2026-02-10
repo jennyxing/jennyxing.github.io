@@ -8,8 +8,8 @@
       <span @click="handleClick('https://www.github.com/jennyxing')">
         <font-awesome-icon size="2x" :icon="['fab', 'github']" />
       </span>
-      <span @click="handleClick('https://calendly.com/jennyxing/chat')">
-        <font-awesome-icon size="2x" icon="calendar-day" />
+      <span @click="handleClick('https://medium.com/@jennyxing')">
+        <font-awesome-icon size="2x" :icon="['fab', 'medium']" />
       </span>
       <a :href="`mailto:jenny@jennyxing.com`">
         <font-awesome-icon size="2x" icon="envelope" />
