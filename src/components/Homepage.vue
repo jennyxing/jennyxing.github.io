@@ -15,15 +15,6 @@
       <a :href="`mailto:jenny@jennyxing.com`">
         <font-awesome-icon size="2x" icon="envelope" />
       </a>
-      <span class="hide">
-        <font-awesome-icon size="2x" :icon="['fab', 'medium-m']" />
-      </span>
-      <span class="hide">
-        <font-awesome-icon size="2x" :icon="['fab', 'dribbble']" />
-      </span>
-      <span class="hide">
-        <font-awesome-icon size="2x" :icon="['fab', 'codepen']" />
-      </span>
     </div>
     <h1 style="font-size:20px">Software Engineer & Counselor-in-Training</h1>
     <h1 style="font-size:16px">I write about my career journey on:</h1>
