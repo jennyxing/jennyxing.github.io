@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h1>Jenny Xing</h1>
     <img alt="Vue logo" src="../assets/logo/jx-logo.png" />
     <div class="icons_container">
       <span @click="handleClick('https://www.linkedin.com/in/jennyxing')">
@@ -8,8 +9,8 @@
       <span @click="handleClick('https://www.github.com/jennyxing')">
         <font-awesome-icon size="2x" :icon="['fab', 'github']" />
       </span>
-      <span @click="handleClick('https://medium.com/@jennyxing')">
-        <font-awesome-icon size="2x" :icon="['fab', 'medium']" />
+      <span @click="handleClick('https://www.flickr.com/photos/200989686@N02/')">
+        <font-awesome-icon size="2x" :icon="['fab', 'flickr']" />
       </span>
       <a :href="`mailto:jenny@jennyxing.com`">
         <font-awesome-icon size="2x" icon="envelope" />
@@ -24,6 +25,13 @@
         <font-awesome-icon size="2x" :icon="['fab', 'codepen']" />
       </span>
     </div>
+    <h1 style="font-size:20px">Software Engineer & Counselor-in-Training</h1>
+    <h1 style="font-size:16px">I write about my career journey on:</h1>
+    <span @click="handleClick('https://medium.com/@jennyxing')">  
+        <font-awesome-icon size="2x" :icon="['fab', 'medium']" />
+    </span>
+
+
   </div>
 </template>
 
@@ -48,6 +56,7 @@ export default {
 }
 .icons_container {
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 img {
   width: fit-content;
